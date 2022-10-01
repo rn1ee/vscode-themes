@@ -1,0 +1,27 @@
+{
+  "name": "vscode-themes",
+  "displayName": "VSCode Themes by rn1ee",
+  "description": "Themes for VSCode",
+  "version": "1.0.1",
+  "publisher": "rn1ee",
+  "icon": "icon.png",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/rn1ee/vscode-themes"
+	},
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Light Theme by rn1ee",
+        "uiTheme": "vs",
+        "path": "./themes/light-theme.json"
+      }
+    ]
+  }
+}
